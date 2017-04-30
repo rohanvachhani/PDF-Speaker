@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Go to first page"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/open_file"
+        android:title="Open File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bookmark"
+        android:title="Bookmark Page"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/bookmark_list"
+        android:title="Bookmark List"
+        app:showAsAction="never" />
+</menu>
